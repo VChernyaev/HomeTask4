@@ -7,8 +7,8 @@ int NumberB = Convert.ToInt32(Console.ReadLine());
 
 int exponent (int num1, int num2)
 {
-    int result = num1;
-    for (int i=1; num2>i; i++)
+    int result = 1;
+    for (int i=1; num2>=i; i++)
     {
        result  = result*num1;
     }
